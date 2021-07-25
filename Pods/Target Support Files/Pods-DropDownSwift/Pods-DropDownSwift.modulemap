@@ -1,0 +1,6 @@
+framework module Pods_DropDownSwift {
+  umbrella header "Pods-DropDownSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

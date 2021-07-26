@@ -65,16 +65,24 @@
 		165BB66D26ACAB7100448D47 /* DropDownSwift */ = {
 			isa = PBXGroup;
 			children = (
-				165BB66E26ACAB7100448D47 /* AppDelegate.swift */,
-				165BB67026ACAB7100448D47 /* SceneDelegate.swift */,
-				165BB67226ACAB7100448D47 /* ViewController.swift */,
-				165BB67426ACAB7100448D47 /* Main.storyboard */,
-				165BB67726ACAB7500448D47 /* Assets.xcassets */,
-				165BB67926ACAB7500448D47 /* LaunchScreen.storyboard */,
-				165BB67C26ACAB7500448D47 /* Info.plist */,
 				165BB69D26AE2E8900448D47 /* ExtensionViewController.swift */,
+				165BB67226ACAB7100448D47 /* ViewController.swift */,
+				165BB6A026AE445E00448D47 /* Resources */,
 			);
 			path = DropDownSwift;
+			sourceTree = "<group>";
+		};
+		165BB6A026AE445E00448D47 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				165BB67C26ACAB7500448D47 /* Info.plist */,
+				165BB67926ACAB7500448D47 /* LaunchScreen.storyboard */,
+				165BB67726ACAB7500448D47 /* Assets.xcassets */,
+				165BB67426ACAB7100448D47 /* Main.storyboard */,
+				165BB67026ACAB7100448D47 /* SceneDelegate.swift */,
+				165BB66E26ACAB7100448D47 /* AppDelegate.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		783729BE7189E6DDFC41C447 /* Pods */ = {
@@ -361,7 +369,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L73M8R7276;
-				INFOPLIST_FILE = DropDownSwift/Info.plist;
+				INFOPLIST_FILE = DropDownSwift/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,7 +389,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L73M8R7276;
-				INFOPLIST_FILE = DropDownSwift/Info.plist;
+				INFOPLIST_FILE = DropDownSwift/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
